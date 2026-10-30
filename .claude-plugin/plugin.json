@@ -1,0 +1,6 @@
+{
+  "name": "group-changes",
+  "version": "0.1.0",
+  "description": "Groups a branch's or a PR's changes into logical review groups, Copilot-style, in a toggleable pane",
+  "types": "./types/index.d.ts"
+}
