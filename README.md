@@ -2,6 +2,24 @@
 
 A Claude Code mod that groups a branch's or a pull request's changes into logical review groups, like GitHub Copilot's "group changes" for PRs.
 
+## Install
+
+At the prompt of a Claude Code terminal session:
+
+```
+/plugin install group-changes --marketplace brenoferreira/pr-group-changes
+```
+
+From a shell:
+
+```
+claude plugin install group-changes --marketplace brenoferreira/pr-group-changes
+```
+
+Answer `y` to add the marketplace, then pick a scope. In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `brenoferreira/pr-group-changes`, then Add plugin.
+
+For the sidebar pane and clickable buttons, use fullscreen rendering (`/tui fullscreen`) in a terminal at least 110 columns wide. Otherwise the pane sits above the prompt; press `ctrl+x` then `Tab` to focus it, and `r` / `c` to refresh or close.
+
 ## Use
 
 - On a feature branch with changes, a dim `⊞ change groups` button appears above the prompt. Press it to open or close the **Change groups** pane. The first open groups the branch's changes against the main branch.
