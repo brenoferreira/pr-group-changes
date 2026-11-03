@@ -1,0 +1,5 @@
+{
+  "name": "pr-group-changes",
+  "owner": { "name": "Breno Ferreira" },
+  "plugins": [{ "name": "group-changes", "source": "./" }]
+}
